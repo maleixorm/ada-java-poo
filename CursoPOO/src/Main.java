@@ -3,5 +3,11 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
+
+        byte variavelByte = 120;
+        System.out.println(variavelByte);
+
+        int variavelInt = 2147483;
+        System.out.println(variavelInt);
     }
 }
