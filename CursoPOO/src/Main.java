@@ -21,5 +21,7 @@ public class Main {
 
         cachorro1.latir();
         System.out.println("O cachorro pegou uma " + cachorro1.pegar());
+
+        System.out.println("O cachorro está " + cachorro1.interagir("carinho"));
     }
 }
