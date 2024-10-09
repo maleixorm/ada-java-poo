@@ -13,11 +13,11 @@ public class Main {
         System.out.println(variavelInt);
 
         Cachorro cachorro1 = new Cachorro();
-        cachorro1.nome = "Mel";
-        cachorro1.cor = "Preto/Amarelo";
-        cachorro1.altura = 55;
-        cachorro1.peso = 36.5;
-        cachorro1.tamanhoDoRabo = 22;
+        cachorro1.setNome("Mel");
+        cachorro1.setCor("Preto/Amarelo");
+        cachorro1.setAltura(55);
+        cachorro1.setPeso(36.5);
+        cachorro1.setTamanhoDoRabo(22);
 
         cachorro1.latir();
         System.out.println("O cachorro pegou uma " + cachorro1.pegar());
