@@ -12,15 +12,14 @@ public class Main {
         int variavelInt = 2147483;
         System.out.println(variavelInt);
 
-        Cachorro cachorro1 = new Cachorro();
-        cachorro1.setNome("Mel");
-        cachorro1.setCor("Preto/Amarelo");
-        cachorro1.setAltura(55);
-        cachorro1.setPeso(36.5);
-        cachorro1.setTamanhoDoRabo(22);
+        Cachorro cachorro1 = new Cachorro("Mel", "Preto/Amarelo", 55,36.5, 22, "Nada");
+        Cachorro cachorro2 = new Cachorro("Puppy", "Marrom", 25,6.5, 5, "Nada");
+
+        System.out.println(cachorro2.getNome());
+        System.out.println(cachorro2.getPeso());
 
         cachorro1.latir();
-        System.out.println("O cachorro pegou uma " + cachorro1.pegar());
+        System.out.println(cachorro1.getNome() + " pegou uma " + cachorro1.pegar());
 
         System.out.println("O cachorro está " + cachorro1.interagir("carinho"));
         System.out.println("O cachorro está " + cachorro1.interagir("vai dormir!"));
