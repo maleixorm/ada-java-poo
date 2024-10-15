@@ -14,9 +14,15 @@ public class Main {
 
         Cachorro cachorro1 = new Cachorro("Mel", "Preto/Amarelo", 55,36.5, 22, "Nada");
         Cachorro cachorro2 = new Cachorro("Puppy", "Marrom", 25,6.5, 5, "Nada");
+        Cachorro cachorro3 = new Cachorro("Thor", "Cinza", 35,18.5, 12, "Nada");
+        Cachorro cachorro4 = new Cachorro("Puppy", "Marrom", 25,6.5, 5, "Nada");
 
-        System.out.println(cachorro2.getNome());
+        System.out.println(cachorro2.toString());
+        System.out.println(cachorro4.toString());
+
+        System.out.println(cachorro1.getNome());
         System.out.println(cachorro2.getPeso());
+        System.out.println(cachorro3.getTamanhoDoRabo());
 
         cachorro1.latir();
         System.out.println(cachorro1.getNome() + " pegou uma " + cachorro1.pegar());
