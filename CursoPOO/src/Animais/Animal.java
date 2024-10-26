@@ -23,7 +23,9 @@ public class Animal {
 
     }
 
-    protected void soar() {
+    public void soar() {
         System.out.println("Cri cri!");
     }
+
+
 }
