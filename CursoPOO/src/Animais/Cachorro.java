@@ -10,6 +10,7 @@ public class Cachorro extends Animal {
 
 
     public Cachorro(String nome, String cor, int altura, double peso, int tamanhoDoRabo, String estadoDeEspirito) {
+        super(nome, cor, altura, peso, estadoDeEspirito);
         this.nome = nome;
         this.cor = cor;
         this.altura = altura;
@@ -94,5 +95,17 @@ public class Cachorro extends Animal {
         }
 
         return estadoDeEspirito;
+    }
+
+    @Override
+    public String toString() {
+        return "Cachorro{" +
+                "nome='" + nome + '\'' +
+                '}';
+    }
+
+    @Override
+    public void soar() {
+        System.out.println("Ruf Ruf Ruf!");
     }
 }
